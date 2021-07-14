@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "esnext",
+        "target": "es6",
+        "lib": ["es6", "dom"],
+        "sourceMap": true,
+        "allowJs": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "baseUrl": "./",
+        "rootDir": "./",
+        "typeRoots": ["./node_modules/@types", "./src/@types"],
+        "paths": {
+            "@src/*": ["src/*"],
+            "@images/*": ["src/images/*"],
+            "@styles/*": ["src/styles/*"],
+            "@components/*": ["src/components/*"]
+        },
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "importsNotUsedAsValues": "error",
+        "incremental": true,
+        "removeComments": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictFunctionTypes": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true
+    },
+    "include": ["src"],
+    "exclude": ["**/node_modules", "**/.*/"]
+}
